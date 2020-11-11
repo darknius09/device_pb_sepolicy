@@ -24,3 +24,7 @@ allow platform_app recovery_service:service_manager find;
 # Allow theme_prop to be read by system ui
 get_prop(platform_app, theme_prop)
 
+# Allow theme_prop to be read and set by SystemUI
+get_prop(platform_app, theme_prop)
+set_prop(platform_app, theme_prop)
+
