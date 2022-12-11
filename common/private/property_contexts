@@ -6,3 +6,5 @@ persist.vendor.recovery_update         u:object_r:recovery_update_prop:s0
 # Adblock
 persist.aicp.                          u:object_r:system_prop:s0
 
+# disable sim
+persist.sim.activesim                         u:object_r:system_prop:s0
